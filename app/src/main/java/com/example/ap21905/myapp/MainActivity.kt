@@ -16,21 +16,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClick(V:View) {
-        Toast.makeText(this,"Abfahrt Lüneburg, Am Sande",Toast.LENGTH_SHORT).show()
-        ausgabe.text = "Lüneburg, Am Sande"
-        browse("https://abfahrten.hvv.de/677202df-0d1f-4009-be1f-80b9c167166a")
+        Toast.makeText(this,"Abfahrt Lüneburg, Schnellenberger Weg",Toast.LENGTH_SHORT).show()
+        ausgabe.text = "Reppenstedt, Schnellenberger Weg"
+        browse("https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/abfahrten-auf-ihrem-monitor/abfahrten-anzeige?show=da23bd4ef3f5437f88ec055f4d3d1a43")
     }
 
     fun onClick1(V:View) {
-        Toast.makeText(this,"Abfahrt Reppenstedt, Schnellenberger Weg",Toast.LENGTH_SHORT).show()
-        ausgabe.text = "Reppenstedt, Schnellenberger Weg"
-        browse("https://abfahrten.hvv.de/f9a1e0a1-44be-4577-bfa3-8a1c6abaadf1")
+        Toast.makeText(this,"Abfahrt Reppenstedt, Landwehrplatz",Toast.LENGTH_SHORT).show()
+        ausgabe.text = "Reppenstedt, Landwehrplatz"
+        browse("https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/abfahrten-auf-ihrem-monitor/abfahrten-anzeige?show=630267ee2d944e3e94a9e8ad53c3e2c8")
     }
 
     fun onClick2(V:View) {
         Toast.makeText(this,"Abfahrt Bf. Lüneburg (ZOB)",Toast.LENGTH_SHORT).show()
         ausgabe.text = "Bf. Lüneburg (ZOB)"
-        browse("https://abfahrten.hvv.de/56effe72-853c-4770-83cb-3c6e2320fbc3")
+        browse("https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/abfahrten-auf-ihrem-monitor/abfahrten-anzeige?show=1076e8a4103343fba091b8ee758053e3")
     }
 
 }
